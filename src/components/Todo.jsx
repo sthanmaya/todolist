@@ -41,8 +41,6 @@ function Todo() {
     <div>
       <h1 className="header">Add your Plan for Today?</h1>
 
-      {/*once we display header to the webpage 
-      we will pass the function as props to TodoForm and TodoList to display the data to user*/}
 
       <TodoForm onSubmit={addTodo} />
       <TodoList
