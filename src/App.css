@@ -1,0 +1,116 @@
+
+/*css for app.jsx */
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 520px;
+  min-height: 600px;
+  background:rgb(234, 222, 222);
+  text-align: center;
+  margin: 90px auto;
+  border-radius: 10px;
+  padding-bottom: 32px;
+
+}
+
+/* css for Todo.jsx */
+.header{
+margin: 32px 0;
+font-size: 30px;
+}
+
+/* css for TodoForm.jsx */
+.todo_form{
+  margin-bottom: 32px;
+}
+
+.input-add{
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 2px solid #5d0cff;
+  width: 320px;
+  background: transparent;
+  color:black; 
+ 
+}
+
+.input-edit{
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  border: 2px solid #5d0cff;
+  box-shadow: 10px 5px 5px rgb(139, 123, 169);
+  width: 320px;
+  background: transparent;
+  color:black;
+}
+
+.edit-button,
+.add-button{
+padding: 16px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+outline: none;
+background: linear-gradient(
+  90deg,
+  rgb(128, 84, 215) 0%,
+  rgb(130, 115, 139) 100%
+);
+color: #d7c9c9;
+text-transform: capitalize;
+font-weight: bolder;
+font-size: large;
+}
+
+/* css for TodoList.jsx */
+.todo-container{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 4px auto;
+color: #0b0a0a;
+background: linear-gradient(
+  90deg,
+  rgb(156, 201, 237) 0%,
+    rgb(212, 162, 210) 100%
+);
+
+padding: 16px;
+border-radius: 5px;
+width: 380px;
+font-size: larger;
+}
+
+.todo-complete{
+text-decoration: line-through;
+opacity: 0.4;
+align-items: center;
+margin: 4px auto;
+background: linear-gradient(
+  90deg,
+  rgb(113, 89, 236) 0%,
+  rgb(235, 230, 228) 100%
+);
+padding: 16px;
+border-radius: 5px;
+width: 380px;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.delete-icon {
+  margin-right: 5px;
+  color: rgb(14, 13, 13);
+ 
+}
+
+.edit-icon {
+ color: rgb(20, 187, 253);
+}
